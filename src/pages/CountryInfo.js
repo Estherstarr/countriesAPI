@@ -38,22 +38,15 @@ export default function CountryInfo() {
                 <span className="font-bold">Native Name</span>
                 :Belge
               </p>
-              <p>
-                <span className="font-bold"> Population:</span>
-                <span className="pl-2">{country?.population}</span>
-              </p>
-              <p>
-                <span className="font-bold">Region:</span>
-                <span className="pl-2">{country?.region}</span>
-              </p>
-              <p>
-                <span className="font-bold">SubRegion:</span>
-                <span className="pl-2">{country?.subregion}</span>
-              </p>
-              <p>
-                <span className="font-bold">Capital:</span>
-                <span className="pl-2">{country?.capital}</span>
-              </p>
+              <p>{country?.population}</p>
+              <p>{country?.region}</p>
+              <p>{country?.subregion}</p>
+              <p>{country?.capital}</p>
+            </div>
+            <div>
+              <p>Top Level Domain: be</p>
+              <p>{country?.currencies?.name}</p>
+              <p>{country?.languages?.ara}</p>
             </div>
           </div>
           <div className="mt-10 flex-col gap-y-3 md:flex-row md:gap-x-3">
