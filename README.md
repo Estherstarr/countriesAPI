@@ -9,6 +9,7 @@ This app displays exciting information and facts from countries all over the wor
 
 
 Screenshot 2022-06-24 at 8.16.51 PM.png
+
 ## Install
 ### Run the project in your local machine
 
