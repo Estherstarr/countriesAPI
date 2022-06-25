@@ -7,7 +7,6 @@ This app displays exciting information and facts from countries all over the wor
 - REDUX
 - TAILWIND-CSS
 
-
 ## Install
 ### Run the project in your local machine
 
